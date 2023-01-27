@@ -75,15 +75,6 @@ namespace Tools
             _RaycastManager = GetComponent<ARRaycastManager>();
         }
 
-        // public void ChangeTool(ITool newTool)
-        // {
-        //     if (_tool == newTool) return;
-        //     OnToolChange?.Invoke(_tool);
-        //     _tool?.OnToolChange();
-        //     _tool = newTool;
-        //     toolTextField.text = _tool.GetName();
-        // }
-        
         public void ChangeTool(ITool newTool)
         {
             if (_tool == newTool) return;
