@@ -85,7 +85,6 @@ namespace Tools
             string path = Application.persistentDataPath + "/tool_log.csv";
             using (StreamWriter writer = File.AppendText(path))
             {
-                // string deviceName = UnityEngine.iOS.Device.name;
                 string deviceName = SystemInfo.deviceName;
 
                 string logLine = string.Format("{0},{1},{2}", DateTime.Now, deviceName, newTool.GetName());
