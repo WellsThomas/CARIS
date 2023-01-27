@@ -1,0 +1,15 @@
+{
+    "name": "Unity.XR.Samples.Multipeer",
+    "references": [],
+    "includePlatforms": [
+        "iOS",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
